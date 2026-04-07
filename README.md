@@ -33,28 +33,22 @@ and uses Machine Learning to detect anomalies in real-time.
 ---
 
 ## 🏗️ Project Structure
-
+```
 behavioral-clone-detection/
-│
-├── app.py # Flask backend
-├── model.py # ML training script
-├── requirements.txt
-├── README.md
-│
+├── app.py                 # Flask backend server
+├── model.py               # ML training script
+├── requirements.txt       # Python dependencies
+├── README.md              # Project documentation
 ├── dataset/
-│ └── user_data.csv # Training data
-│
+│   └── user_data.csv      # Training data
 ├── saved_model/
-│ └── model.pkl # Trained model
-│
+│   └── model.pkl          # Pre-trained model file
 ├── templates/
-│ └── index.html # Frontend UI
-│
+│   └── index.html         # Frontend UI template
 └── static/
-├── script.js # Behavior tracking
-└── style.css # Styling
-
-
+    ├── script.js          # Behavior tracking logic
+    └── style.css          # UI styling
+```
 ---
 
 ## ⚙️ Installation & Setup
