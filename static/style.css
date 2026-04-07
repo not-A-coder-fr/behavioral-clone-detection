@@ -1,0 +1,92 @@
+/* =========================
+   GLOBAL STYLES
+========================= */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background: linear-gradient(to right, #0f172a, #1e293b);
+    color: white;
+}
+
+/* =========================
+   TITLE & TEXT
+========================= */
+h2 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #cbd5f5;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   TEXT AREA
+========================= */
+textarea {
+    width: 400px;
+    height: 120px;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+button {
+    padding: 10px 15px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #38bdf8;
+    color: #0f172a;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0ea5e9;
+    transform: scale(1.05);
+}
+
+/* =========================
+   RESULT TEXT
+========================= */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* =========================
+   RISK METER
+========================= */
+.meter-container {
+    width: 400px;
+    height: 25px;
+    background-color: #1e293b;
+    border-radius: 20px;
+    margin: 20px auto;
+    overflow: hidden;
+    border: 1px solid #334155;
+}
+
+#meter-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(to right, #22c55e, #eab308, #ef4444);
+    transition: width 0.5s ease-in-out;
+}
+
+#meter-label {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+}

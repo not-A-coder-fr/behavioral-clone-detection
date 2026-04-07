@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Silicon Sprint - Behavioral Clone Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <h2>🚀 Silicon Sprint - Behavioral Clone Detection</h2>
+
+    <p>Type naturally below. Your typing and mouse behavior will be used to verify your identity.</p>
+
+    <!-- Typing Area -->
+    <textarea id="typingArea" placeholder="Start typing here..."></textarea>
+
+    <br><br>
+
+    <!-- Buttons -->
+    <button onclick="sendData()">🔍 Check Behavior</button>
+    <button onclick="saveData()">💾 Save Behavior</button>
+    <button onclick="trainModel()">🧠 Train Model</button>
+
+    <!-- Result Display -->
+    <h3 id="result"></h3>
+
+    <!-- Risk Meter -->
+    <div class="meter-container">
+    <div id="meter-bar"></div>
+    </div>
+    <p id="meter-label"></p>
+
+</body>
+
+<script src="/static/script.js"></script>
+</html>
